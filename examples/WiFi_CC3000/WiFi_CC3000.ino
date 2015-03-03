@@ -57,7 +57,7 @@ void setup(void)
   
   // Give name and ID to device
   rest.set_id("008");
-  rest.set_name("mighty_cat");
+  rest.set_name("duino1");
   
   // Set up CC3000 and get connected to the wireless network.
   if (!cc3000.begin())

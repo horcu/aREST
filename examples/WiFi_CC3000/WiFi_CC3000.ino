@@ -44,7 +44,7 @@ int humidity;
 void setup(void)
 {  
   // Start Serial
-  Serial.begin(115200);
+  Serial.begin(9600);
   
   // Init variables and expose them to REST API
   temperature = 24;
